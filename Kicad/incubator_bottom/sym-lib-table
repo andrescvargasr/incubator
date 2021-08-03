@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ZXMS6004)(type Legacy)(uri /home/andres/Git/phmeter/pcb/main/library/ZXMS6004.lib)(options "")(descr ""))
+)
