@@ -365,17 +365,6 @@ F 3 "~" V 2100 4225 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Barrel_Jack_MountingPin J2
-U 1 1 6123D136
-P 1275 925
-F 0 "J2" H 1332 1242 50  0000 C CNN
-F 1 "Barrel_Jack_MountingPin" H 1050 1150 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1325 885 50  0001 C CNN
-F 3 "~" H 1325 885 50  0001 C CNN
-	1    1275 925 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR0112
 U 1 1 61248C9C
 P 1650 750
@@ -663,4 +652,15 @@ Text Notes 3125 4250 0    150  ~ 0
 TOP-BOTTOM\nCONNECTOR
 Wire Notes Line
 	475  3325 5925 3325
+$Comp
+L incubator:Barrel_Jack_MountingPin J1
+U 1 1 61123504
+P 1275 925
+F 0 "J1" H 1332 1242 50  0000 C CNN
+F 1 "Barrel_Jack_MountingPin" H 1332 1151 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1325 885 50  0001 C CNN
+F 3 "~" H 1325 885 50  0001 C CNN
+	1    1275 925 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
